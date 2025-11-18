@@ -42,11 +42,16 @@
                 <h2><a href="#home">Guilherme</a></h2>
             </div>
             <ul class="nav-menu">
-                <li><a href="#home" class="nav-link">Início</a></li>
-                <li><a href="#about" class="nav-link">Sobre</a></li>
-                <li><a href="#projects" class="nav-link">Projetos</a></li>
-                <li><a href="#contact" class="nav-link">Contato</a></li>
+                <li><a href="#home" class="nav-link" data-translate="nav-home">Início</a></li>
+                <li><a href="#about" class="nav-link" data-translate="nav-about">Sobre</a></li>
+                <li><a href="#projects" class="nav-link" data-translate="nav-projects">Projetos</a></li>
+                <li><a href="#contact" class="nav-link" data-translate="nav-contact">Contato</a></li>
             </ul>
+            <div class="language-selector">
+                <button class="lang-btn active" data-lang="pt">PT</button>
+                <button class="lang-btn" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="es">ES</button>
+            </div>
             <button class="hamburger" aria-label="Abrir menu de navegação" aria-expanded="false">
                 <span></span>
                 <span></span>
@@ -71,35 +76,35 @@
         <div class="hero-content">
             <div class="hero-text-wrapper">
                 <h1 class="hero-title">
-                    <span class="title-line">Olá, eu sou</span>
-                    <span class="highlight">Guilherme Saccomani</span>
+                    <span class="title-line" data-translate="hero-greeting">Olá, eu sou</span>
+                    <span class="highlight" data-translate="hero-name">Guilherme Saccomani</span>
                 </h1>
                 <p class="hero-subtitle">
-                    <span class="typing-text">Desenvolvedor Full Stack</span>
+                    <span class="typing-text" data-translate="hero-role">Desenvolvedor Full Stack</span>
                     <span class="cursor">|</span>
                 </p>
-                <p class="hero-description">Transformando ideias em soluções digitais inovadoras. Vamos conversar sobre seu projeto!</p>
+                <p class="hero-description" data-translate="hero-description">Transformando ideias em soluções digitais inovadoras. Vamos conversar sobre seu projeto!</p>
                 <div class="hero-stats">
                     <div class="stat-item">
                         <span class="stat-number" data-target="3">0</span>
-                        <span class="stat-label">Projetos</span>
+                        <span class="stat-label" data-translate="stat-projects">Projetos</span>
                     </div>
                     <div class="stat-item">
                         <span class="stat-number" data-target="2">0</span>
-                        <span class="stat-label">Anos Exp.</span>
+                        <span class="stat-label" data-translate="stat-experience">Anos Exp.</span>
                     </div>
                     <div class="stat-item">
                         <span class="stat-number" data-target="7">0</span>
-                        <span class="stat-label">Tecnologias</span>
+                        <span class="stat-label" data-translate="stat-technologies">Tecnologias</span>
                     </div>
                 </div>
                 <div class="hero-buttons">
                     <a href="#projects" class="cta-button primary">
-                        <span class="btn-text">Ver Projetos</span>
+                        <span class="btn-text" data-translate="hero-projects">Ver Projetos</span>
                         <span class="btn-icon">→</span>
                     </a>
                     <a href="#contact" class="cta-button secondary">
-                        <span class="btn-text">Entre em Contato</span>
+                        <span class="btn-text" data-translate="hero-contact">Entre em Contato</span>
                         <span class="btn-icon">→</span>
                     </a>
                 </div>
@@ -132,27 +137,27 @@
             <div class="section-header">
                 <h2 class="section-title">
                     <span class="title-decoration"></span>
-                    Sobre Mim
+                    <span data-translate="about-title">Sobre Mim</span>
                 </h2>
-                <p class="section-subtitle">Conheça minha trajetória e habilidades</p>
+                <p class="section-subtitle" data-translate="about-subtitle">Conheça minha trajetória e habilidades</p>
             </div>
             <div class="about-content">
                     <div class="about-text">
                         <div class="text-block">
-                            <p>Sou Guilherme Enrico Silva Saccomani, desenvolvedor Full Stack e estudante de Engenharia de Software na FIAP. Atualmente atuo como Estagiário de Desenvolvimento na Tracker, onde tenho a oportunidade de aplicar na prática meus conhecimentos em tecnologias de ponta, colaborando em projetos que integram inovação, qualidade e escalabilidade.</p>
+                            <p data-translate="about-text1">Sou Guilherme Enrico Silva Saccomani, desenvolvedor Full Stack e estudante de Engenharia de Software na FIAP. Atualmente atuo como Estagiário de Desenvolvimento na Tracker, onde tenho a oportunidade de aplicar na prática meus conhecimentos em tecnologias de ponta, colaborando em projetos que integram inovação, qualidade e escalabilidade.</p>
                         </div>
                         
                         <div class="text-block">
-                            <p>Tenho experiência em Java, SQL, HTML, CSS e JavaScript, além de interesse constante em áreas como UX/UI Design, Front-End Design, Edge Computing e DevOps. Também possuo conhecimento intermediário em Git e GitHub, o que me ajuda a estruturar e versionar projetos de forma organizada e colaborativa.</p>
+                            <p data-translate="about-text2">Tenho experiência em Java, SQL, HTML, CSS e JavaScript, além de interesse constante em áreas como UX/UI Design, Front-End Design, Edge Computing e DevOps. Também possuo conhecimento intermediário em Git e GitHub, o que me ajuda a estruturar e versionar projetos de forma organizada e colaborativa.</p>
                         </div>
                         
                         <div class="text-block">
-                            <p>Minha jornada acadêmica e profissional é guiada pela curiosidade, aprendizado contínuo e pela vontade de desenvolver soluções que realmente façam a diferença. Busco sempre unir técnica, criatividade e boas práticas para entregar resultados de valor.</p>
+                            <p data-translate="about-text3">Minha jornada acadêmica e profissional é guiada pela curiosidade, aprendizado contínuo e pela vontade de desenvolver soluções que realmente façam a diferença. Busco sempre unir técnica, criatividade e boas práticas para entregar resultados de valor.</p>
                         </div>
                     </div>
                     
                     <div class="skills-section">
-                        <h3 class="skills-title">Habilidades Técnicas</h3>
+                        <h3 class="skills-title" data-translate="skills-title">Habilidades Técnicas</h3>
                         <div class="skills-grid">
                             <div class="skill-card">
                                 <div class="skill-icon">
@@ -296,9 +301,9 @@
             <div class="section-header">
                 <h2 class="section-title">
                     <span class="title-decoration"></span>
-                    Meus Projetos
+                    <span data-translate="projects-title">Meus Projetos</span>
                 </h2>
-                <p class="section-subtitle">Alguns trabalhos que desenvolvi</p>
+                <p class="section-subtitle" data-translate="projects-subtitle">Alguns trabalhos que desenvolvi</p>
             </div>
             
             <div class="projects-filter">
@@ -308,7 +313,7 @@
                             <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
                         </svg>
                     </span>
-                    Todos
+                    <span data-translate="filter-all">Todos</span>
                 </button>
                 <button class="filter-btn" data-filter="ai">
                     <span class="filter-icon">
@@ -316,7 +321,7 @@
                             <path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0L19.2 12l-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/>
                         </svg>
                     </span>
-                    IA
+                    <span data-translate="filter-ai">IA</span>
                 </button>
                 <button class="filter-btn" data-filter="blockchain">
                     <span class="filter-icon">
@@ -324,7 +329,7 @@
                             <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
                         </svg>
                     </span>
-                    Blockchain
+                    <span data-translate="filter-blockchain">Blockchain</span>
                 </button>
                 <button class="filter-btn" data-filter="infrastructure">
                     <span class="filter-icon">
@@ -332,7 +337,7 @@
                             <path d="M12 7V3H2v18h20V7H12zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm10 12h-8v-2h2v-2h-2v-2h2v-2h-2V9h8v10z"/>
                         </svg>
                     </span>
-                    Infraestrutura
+                    <span data-translate="filter-infrastructure">Infraestrutura</span>
                 </button>
             </div>
             
@@ -356,10 +361,10 @@
                     <div class="project-info">
                         <div class="project-category">
                             <span class="category-dot ai-dot"></span>
-                            Inteligência Artificial
+                            <span data-translate="project1-category">Inteligência Artificial</span>
                         </div>
-                        <h3 class="project-title">Em Busca do Shape</h3>
-                        <p class="project-description">Chatbot com inteligência artificial desenvolvido utilizando Gemini, criado para auxiliar no atendimento ao cliente (SAC). O projeto trouxe experiência prática com IA aplicada a interações humanas, além de desenvolvimento e integração de sistemas.</p>
+                        <h3 class="project-title" data-translate="project1-title">Em Busca do Shape</h3>
+                        <p class="project-description" data-translate="project1-desc">Chatbot com inteligência artificial desenvolvido utilizando Gemini, criado para auxiliar no atendimento ao cliente (SAC). O projeto trouxe experiência prática com IA aplicada a interações humanas, além de desenvolvimento e integração de sistemas.</p>
                         <div class="project-tags">
                             <span class="tag">Gemini AI</span>
                             <span class="tag">Chatbot</span>
@@ -476,9 +481,9 @@
             <div class="section-header">
                 <h2 class="section-title">
                     <span class="title-decoration"></span>
-                    Entre em Contato
+                    <span data-translate="contact-title">Entre em Contato</span>
                 </h2>
-                <p class="section-subtitle">Precisa de um site profissional? Crio sites modernos e responsivos. Vamos conversar sobre seu próximo projeto</p>
+                <p class="section-subtitle" data-translate="contact-subtitle">Precisa de um site profissional? Crio sites modernos e responsivos. Vamos conversar sobre seu próximo projeto</p>
             </div>
             
             <div class="contact-grid">
@@ -491,10 +496,10 @@
                         </svg>
                     </div>
                     <div class="contact-content">
-                        <h3>Email</h3>
-                        <p>Envie uma mensagem</p>
+                        <h3 data-translate="contact-email">Email</h3>
+                        <p data-translate="contact-email-desc">Envie uma mensagem</p>
                         <a href="mailto:guiensacc@gmail.com" class="contact-btn">
-                            <span class="btn-text">Enviar mensagem</span>
+                            <span class="btn-text" data-translate="btn-send">Enviar mensagem</span>
                             <span class="btn-arrow">→</span>
                         </a>
                     </div>
@@ -509,10 +514,10 @@
                         </svg>
                     </div>
                     <div class="contact-content">
-                        <h3>WhatsApp</h3>
-                        <p>Conversa rápida</p>
+                        <h3 data-translate="contact-whatsapp">WhatsApp</h3>
+                        <p data-translate="contact-whatsapp-desc">Conversa rápida</p>
                         <a href="https://wa.me/5511993580014" target="_blank" class="contact-btn">
-                            <span class="btn-text">Enviar mensagem</span>
+                            <span class="btn-text" data-translate="btn-send">Enviar mensagem</span>
                             <span class="btn-arrow">→</span>
                         </a>
                     </div>
@@ -527,10 +532,10 @@
                         </svg>
                     </div>
                     <div class="contact-content">
-                        <h3>LinkedIn</h3>
-                        <p>Rede profissional</p>
+                        <h3 data-translate="contact-linkedin">LinkedIn</h3>
+                        <p data-translate="contact-linkedin-desc">Rede profissional</p>
                         <a href="https://www.linkedin.com/in/guilherme-saccomani-653097204/" target="_blank" class="contact-btn">
-                            <span class="btn-text">Enviar mensagem</span>
+                            <span class="btn-text" data-translate="btn-send">Enviar mensagem</span>
                             <span class="btn-arrow">→</span>
                         </a>
                     </div>
@@ -545,10 +550,10 @@
                         </svg>
                     </div>
                     <div class="contact-content">
-                        <h3>GitHub</h3>
-                        <p>Repositórios e projetos</p>
+                        <h3 data-translate="contact-github">GitHub</h3>
+                        <p data-translate="contact-github-desc">Repositórios e projetos</p>
                         <a href="https://github.com/GuiSaccomani" target="_blank" class="contact-btn">
-                            <span class="btn-text">Ver repositórios</span>
+                            <span class="btn-text" data-translate="btn-view">Ver repositórios</span>
                             <span class="btn-arrow">→</span>
                         </a>
                     </div>
@@ -561,10 +566,11 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Guilherme Saccomani</p>
+            <p data-translate="footer-text">&copy; 2025 Guilherme Saccomani</p>
         </div>
     </footer>
 
     <script src="script.js"></script>
+    <script src="languages.js"></script>
 </body>
 </html>
